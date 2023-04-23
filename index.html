@@ -1,0 +1,60 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+    <br>
+    <div class="card"> 
+      </div class="card-body">
+         <div class="row">       
+              <div class="col-sm">
+                  </div class="form-group">
+                      <label for="Favorite-Planet">Item</label>
+                      <input type="text" class="form-control"  id="Favorite-Planet"> 
+                  </div>
+              </div>
+           <div class="col-sm">
+                    <div class="form-group">
+                        <label for="Distance-From-Earth">Bid on Item</label>
+                        <input type="text" class="form-control" id="Distance-From-Earth">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="Size-of-Planet">Date</label>
+                        <input type="text" class="form-control" id="Size-of-Planet" placeholder="text">
+                      
+                    </div>
+               </div>
+                <button id="add" class="btn btn-primary form-control">Add Item</button>
+           </div>
+        </div>  
+    </div>      
+   <script src="node_modules/jquery/dist/jquery.js"></script>
+   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="project.js"></script>
+   
+    <input type="button" value="Delete" onclick="document.getElementById('list').deleteRow(0)">
+
+    <table id="list" class="table table-dark table-striped">
+    <tr>
+        <th>Item Name</th>
+        <th>Bid on item</th>
+        <th>Date</th>
+
